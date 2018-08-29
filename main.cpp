@@ -36,7 +36,7 @@ void printColor(const std::string &s, const std::string &color, std::string &rgb
 		rgb = "34495e";
 	if (color == "Gray:")
 		rgb = "bbbbbb";
-	printf("\n\n![%s](https://i...content-available-to-author-only...s.io/badge/%s-%s-%s.svg)\n\n> ", s.c_str(), s.c_str(), color.substr(0, color.size() - 1).c_str(), rgb.c_str());
+	printf("\n\n![%s](https://img.shields.io/badge/%s-%s-%s.svg)\n\n> ", s.c_str(), s.c_str(), color.substr(0, color.size() - 1).c_str(), rgb.c_str());
 	cnt = 0;
 	printf("|  |  |  |  |  |  |  |  |  |  |\n| :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- | :----------- |\n| ");
 }
@@ -63,7 +63,7 @@ int main()
             preLen = 2;
         const char *prefix = subPrefix(s, preLen).c_str();
         const char *suffix = s.substr(preLen).c_str();
-		printf("[![%s](https://i...content-available-to-author-only...s.io/badge/%s-%s-%s.svg)](https://w...content-available-to-author-only...u.org/problemnew/show/%s) $\\ $|", s.c_str(), prefix, suffix, rgb.c_str(), s.c_str());
+		printf("[![%s](https://img.shields.io/badge/%s-%s-%s.svg)](https://www.luogu.org/problemnew/show/%s) $\\ $|", s.c_str(), prefix, suffix, rgb.c_str(), s.c_str());
 		++cnt;
 		if (cnt % 8 == 0) // 一行最多几个 badge
 			printf("\n| ");
