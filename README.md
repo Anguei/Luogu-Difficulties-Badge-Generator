@@ -4,7 +4,7 @@
 **需配合[该爬虫](https://github.com/Anguei/Luogu-Ac-Difficulties)的输出结果使用**
 
 ## 使用方法
-将[该爬虫](https://github.com/Anguei/Luogu-Ac-Difficulties) 输出的**各难度明细（包含详细题号部分的输入）**作为本项目的标准输入运行，得到的标准输出即为 Markdown 代码。
+将[该爬虫](https://github.com/Anguei/Luogu-Ac-Difficulties) 输出的 **各难度明细（包含详细题号部分的输入）** 作为本项目的标准输入运行，得到的标准输出即为 Markdown 代码。
 
 举例：
 
