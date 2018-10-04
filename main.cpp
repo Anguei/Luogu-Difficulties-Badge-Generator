@@ -65,7 +65,7 @@ int main()
             preLen = 2;
         const char *prefix = subPrefix(s, preLen).c_str();
         const char *suffix = s.substr(preLen).c_str();
-        printf("[![%s](https://img.shields.io/badge/%s-%s.svg?label=%s)](https://www.luogu.org/problemnew/show/%s) $\\ $|", s.c_str(), suffix, rgb.c_str(), prefix, s.c_str());
+        printf("[![%s](https://img.shields.io/badge/%s-%s.svg?label=%s&style=plastic&longcache=true)](https://www.luogu.org/problemnew/show/%s) $\\ $|", s.c_str(), suffix, rgb.c_str(), prefix, s.c_str());
         ++cnt;
         if (cnt % 8 == 0) // 一行最多几个 badge
             printf("\n| ");
